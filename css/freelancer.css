@@ -6,6 +6,7 @@
 
 body {
     overflow-x: hidden;
+    font-family: HelveticaNeue-UltraLight,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 p {
@@ -18,7 +19,7 @@ p.small {
 
 
 li {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 li.small {
@@ -41,8 +42,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "HelveticaNeue-Light",Helvetica,Arial,sans-serif;
 }
 
 hr.star-light,
@@ -107,9 +107,9 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
+    font-family: HelveticaNeue-UltraLight,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 3em;
+    font-weight: 200;
 }
 
 header .intro-text .skills {
@@ -158,8 +158,8 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: HelveticaNeue-UltraLight,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 200;
 }
 
 .navbar a:focus {
