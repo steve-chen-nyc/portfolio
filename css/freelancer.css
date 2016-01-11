@@ -11,6 +11,7 @@ body {
 
 p {
     font-size: 20px;
+    letter-spacing: 1px;
 }
 
 p.small {
@@ -45,13 +46,13 @@ h6 {
     font-family: "HelveticaNeue-Light",Helvetica,Arial,sans-serif;
 }
 
-hr.star-light,
+hr.star,
 hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
-    max-width: 250px;
+    max-width: 500px;
     border: 0;
-    border-top: solid 5px;
+    border-top: dotted 1px #000;
     text-align: center;
 }
 
@@ -67,11 +68,11 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #f7f7f7;
 }
 
 hr.star-light:after {
-    color: #fff;
+    color: #f7f7f7;
     background-color: #18bc9c;
 }
 
@@ -81,7 +82,7 @@ hr.star-primary {
 
 hr.star-primary:after {
     color: #2c3e50;
-    background-color: #fff;
+    background-color: #f7f7f7;
 }
 
 .img-centered {
@@ -91,7 +92,8 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #18bc9c;
+    /*background: #18bc9c;*/
+    background-image: url("../img/sc_header.jpg");
 }
 
 header .container {
@@ -110,11 +112,14 @@ header .intro-text .name {
     font-family: HelveticaNeue-UltraLight,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 3em;
     font-weight: 200;
+    letter-spacing: 12.4px;
 }
 
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    letter-spacing: 7px;
+    line-height: 50%;
 }
 
 @media(min-width:768px) {
@@ -177,10 +182,12 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+    background-color: #000;
 }
 
 section {
     padding: 100px 0;
+    background-color: #f7f7f7;
 }
 
 section h2 {
@@ -190,7 +197,8 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    /*background: #18bc9c;*/
+    background-image: url("../img/sc_footer.jpg");
 }
 
 section.success a,
@@ -215,6 +223,7 @@ section.success a.active {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+    padding-top:25px;
 }
 
 #portfolio .portfolio-item .portfolio-link {
@@ -330,7 +339,8 @@ section.success a.active {
     border-left: 1px solid #eee;
 }
 
-.floating-label-form-group-with-value label {
+.floating-label-form-grou
+p-with-value label {
     top: 0;
     opacity: 1;
 }
@@ -353,7 +363,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #2c3e50;
+    background-color: black;
 }
 
 footer .footer-col {
@@ -362,7 +372,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: black;
 }
 
 .btn-social {
@@ -481,10 +491,39 @@ footer .footer-below {
   color: white;
 }
 
+#github_image {
+  width: 20%;
+  padding-top: 12px;
+	cursor: pointer;
+}
+
 .project-title {
   color: #18bc9c;
 }
 
 .project-content {
   color: #18bc9c;
+}
+
+#profile_photo {
+  width: 200px;
+  height: 200px;
+}
+
+.about_me {
+  width: 58%;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.brightness {
+    background-color: black;
+    display: inline-block;
+    -webkit-filter: sepia(100%);
+
+}
+.brightness img:hover {
+  opacity: .5;
+  filter: sepia([ 100 | 100% ])
 }
