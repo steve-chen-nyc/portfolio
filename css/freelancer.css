@@ -93,7 +93,7 @@ header {
     text-align: center;
     color: #fff;
     /*background: #18bc9c;*/
-    background-image: url("../img/sc_header.jpg");
+    background-image: url("../img/sc_header1.jpg");
 }
 
 header .container {
@@ -514,6 +514,7 @@ footer .footer-below {
 .about_me {
   width: 58%;
   margin: 0 auto;
+  padding-top: 20px;
   padding-left: 15px;
   padding-right: 15px;
 }
